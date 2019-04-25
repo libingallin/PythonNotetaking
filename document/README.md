@@ -37,7 +37,7 @@ def square_and_rooter(x):
     """Return the square root of self times self."""
     pass
 ```
-通常情况下，注释遵循**[PEP 8#comments](https://www.python.org/dev/peps/pep-0008/#comments)**（Python Style Guide），更多关于字符串文档docstring的信息在**[PEP 0257#specification](https://www.python.org/dev/peps/pep-0257/#specification)**。
+通常情况下，注释遵循[PEP 8#comments](https://www.python.org/dev/peps/pep-0008/#comments)（Python Style Guide），更多关于字符串文档docstring的信息在[PEP 0257#specification](https://www.python.org/dev/peps/pep-0257/#specification)(The Docstring Conventions Guide)。
 
 ### 代码注释
 不要使用三个引号来注释代码。
