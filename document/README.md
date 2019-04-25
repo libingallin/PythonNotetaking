@@ -46,11 +46,11 @@ def square_and_rooter(x):
 不要使用三个引号来注释代码。
 
 ### Docstrings
--[ ] 有些工具使用docstrings来嵌入比注释更多的行为，如单元测试。nice且不会出错。
++ [ ] 有些工具使用docstrings来嵌入比注释更多的行为，如单元测试。nice且不会出错。
 
--[ ] Sphinx会将docstrings解析为reStructured Text并正确地成呈现为HTML。这使得在项目文档中嵌入示例代码段变得非常容易
-。
--[ ] [Doctest](https://docs.python.org/3/library/doctest.html)会读取所有嵌入的docstrings——看起来像Python命令行的输入（前缀是>>>），并运行它们，检查命令的输出是否和下一行的文本相匹配。这就允许开发人员将实际例子和函数用法嵌入到源代码中，同时还可以确保代码经过测试和工作。
++ [ ] Sphinx会将docstrings解析为reStructured Text并正确地成呈现为HTML。这使得在项目文档中嵌入示例代码段变得非常容易。
+
++ [ ] [Doctest](https://docs.python.org/3/library/doctest.html)会读取所有嵌入的docstrings——看起来像Python命令行的输入（前缀是>>>），并运行它们，检查命令的输出是否和下一行的文本相匹配。这就允许开发人员将实际例子和函数用法嵌入到源代码中，同时还可以确保代码经过测试和工作。
 ```python
 def my_func(a, b):
     """
