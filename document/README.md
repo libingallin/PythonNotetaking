@@ -16,8 +16,11 @@ API文档适用于项目用户。
 ## 2 项目发行文档
 由项目实际情况而定，项目可能包含如下的部分或全部内容。
 + [ ] **项目入门introduction**应该使用一到两个极简的用例，简要概述产品能够用来做什么。这就是项目的30秒自我称述。
+
 + [ ] **项目教程tutorial**应该更详细地介绍一些主要用例。读者能够跟着一步一步地搭建一个可以工作的原型。
+
 + [ ] **API参考reference**，通常从代码中生成，列出所有公共可用的接口、参数和返回值。
+
 + [ ] **开发者文档Developmenter documentation**是为潜在的贡献者准备的，可以包含项目的代码约定和通用设计策略。
 
 ### Sphinx
@@ -43,9 +46,11 @@ def square_and_rooter(x):
 不要使用三个引号来注释代码。
 
 ### Docstrings
-- 有些工具使用docstrings来嵌入比注释更多的行为，如单元测试。nice且不会出错。
-- Sphinx会将docstrings解析为reStructured Text并正确地成呈现为HTML。这使得在项目文档中嵌入示例代码段变得非常容易。
-- [Doctest](https://docs.python.org/3/library/doctest.html)会读取所有嵌入的docstrings——看起来像Python命令行的输入（前缀是>>>），并运行它们，检查命令的输出是否和下一行的文本相匹配。这就允许开发人员将实际例子和函数用法嵌入到源代码中，同时还可以确保代码经过测试和工作。
+-[ ] 有些工具使用docstrings来嵌入比注释更多的行为，如单元测试。nice且不会出错。
+
+-[ ] Sphinx会将docstrings解析为reStructured Text并正确地成呈现为HTML。这使得在项目文档中嵌入示例代码段变得非常容易
+。
+-[ ] [Doctest](https://docs.python.org/3/library/doctest.html)会读取所有嵌入的docstrings——看起来像Python命令行的输入（前缀是>>>），并运行它们，检查命令的输出是否和下一行的文本相匹配。这就允许开发人员将实际例子和函数用法嵌入到源代码中，同时还可以确保代码经过测试和工作。
 ```python
 def my_func(a, b):
     """
