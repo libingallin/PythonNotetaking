@@ -1,7 +1,7 @@
 # :memo:文档
-1. [项目文档](#1-项目文档"悬停显示")
-2. [项目发行文档]("悬停显示")
-3. [代码文档]("悬停显示")
+1. [项目文档](https://github.com/libingallin/learning-notes/tree/master/document#1-项目文档"悬停显示")
+2. [项目发行文档](https://github.com/libingallin/learning-notes/tree/master/document#2-项目发行文档"悬停显示")
+3. [代码文档](https://github.com/libingallin/learning-notes/tree/master/document#3-代码文档建议"悬停显示")
 
 ## 1 项目文档
 API文档适用于项目用户。
