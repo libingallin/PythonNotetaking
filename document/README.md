@@ -1,4 +1,7 @@
 # :memo:文档
+1. [项目文档](#1-项目文档"悬停显示")
+2. [项目发行文档]("悬停显示")
+3. [代码文档]("悬停显示")
 
 ## 1 项目文档
 API文档适用于项目用户。
@@ -82,7 +85,7 @@ help(square_and_rooter)
 
 注释通常用来解释一小段代码是用干什么的，或者算法的具体。而docstrings更多用来向其他人（或6个月后的你自己）解释代码中特殊函数是怎样使用的或类/函数/模块的用途。
 
-在大或者复杂的项目中，给出更多关于函数或函数干什么的或可能会引起什么异常或返回什么或参数的更多描述，这是很棒的做法。docstrings最流行的风格如[NumPy style](http://sphinxcontrib-napoleon.readthedocs.io/en/latest/example_numpy.html)
+在大或者复杂的项目中，给出更多关于函数或函数干什么的或可能会引起什么异常或返回什么或参数的更多描述，这是很棒的做法。docstrings最流行的风格如[NumPy style](http://sphinxcontrib-napoleon.readthedocs.io/en/latest/example_numpy.html)。
 ```python
 def random_number_generation(arg1, arg2):
     """
