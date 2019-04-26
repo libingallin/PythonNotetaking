@@ -1,7 +1,7 @@
 很多python文件的头两行是：
 ```python
 #!/usr/bin/python
-# -*- coding: utg-8 -*-
+# -*- coding: utf-8 -*-
 ```
 
 ## :pencil: `#!/usr/bin/python`
@@ -9,7 +9,7 @@
 
 综合起来即：对于常见的第一行是`#!/usr/bin/python`的Python的文件在运行时，系统会尝试去找到对应的/usr/bin/python去解析并执行此Python文件。
 
-## :pencil: `# -*- coding: utg-8 -*-`
+## :pencil: `# -*- coding: utf-8 -*-`
 Python文件编码声明，就是用来指定文件编码的。
 根据官网的定义，之所以加上这么一句话，则是因为在python2.1时，想要输入Unicode字符，只能用基于Latin-1的“unicode-escape”的方式输入，这就导致了对于其他非Latin-1的国家和用户想要输入Unicode字符，显得很繁琐和不方便。而我们希望的是根据自己的喜好和需要，以任意编码方式输入字符串，最终允许在Python文件中通过文件开始处的字符串形式去声明自己的Python文件用何种编码。此声明放在注释代码内，且给出了该声明格式的严格定义。
 1. 如果没有此文件编码类型声明，则Python默认以ASCII编码去处理。所以，如果Python文件中没有编码声明而文件中又包含非ASCII编码的字符的话，Python解析器解析的Python文件自然就会报错了。
